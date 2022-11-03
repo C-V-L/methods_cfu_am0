@@ -10,18 +10,18 @@
 # YOU DO the rest:
 
 
-"Hello World".include?("Hello")
+p "Hello World".include?("Hello")
+# Does "Hello World" contain "Hello"? In this case the return value will be true
 
+p "Hello World".end_with?("Hello")
+# Does "Hello..." end with "Hello"? Return value would be false
 
-"Hello World".end_with?("Hello")
+p "Hello World".end_with?("rld")
+# Does "Hello..." end with 'rld'? Return value will be true.
 
+p 12.even?
+# Is 12 an even number? Return will be true
 
-"Hello World".end_with?("rld")
-
-
-12.even?
-
-
-18.next
-
+p 18.next
+# What is the next int after 18? 19 will return.
 
